@@ -1,0 +1,26 @@
+"Espécies/Estações"	"BSS1"	"BSS2"	"BSW"	"SCS1"	"SCS2"	"SCW"	"SHS1"	"SHS2"	"SHW"
+"Abudefduf saxatilis"	1	0	0	0	0	1	0	0	0
+"Albula vulpes"	4	0	1	44	7	8	3	44	0
+"Bothus ocellatus"	2	0	0	2	1	0	4	0	0
+"Caranx bartholomei"	0	0	0	0	0	0	1	0	0
+"Caranx latus"	0	1	7	0	0	7	1	0	4
+"Eucinostomus lefroyi"	0	0	0	0	0	238	0	0	2
+"Eucinostomus melanopterus"	74	127	5	0	49	0	76	27	3
+"Eupomacentrus planifrons"	4	0	0	54	0	0	0	0	0
+"Gerres cinerous"	0	4	4	0	0	0	0	0	0
+"Halichoeres biviittatus"	0	2	3	3	0	0	0	0	0
+"Harengula humeralis"	0	0	0	0	0	329	0	1	202
+"Lectophrys trigonus"	0	3	1	0	0	0	1	0	0
+"Lutjanus apodus"	2	0	4	0	0	0	1	0	0
+"Polydactylus oligodon"	0	0	0	0	0	12	0	0	16
+"Pomacentrus leucostictus"	0	2	0	0	0	0	0	0	0
+"Sparisoma radians"	2	3	0	0	0	0	0	0	0
+"Sphoeroides spengleri"	2	0	1	0	0	0	0	0	0
+"Sphoeroides testudineus"	7	5	4	0	0	0	0	0	0
+"Sphyraena barracuda"	4	5	13	2	2	4	1	0	0
+"Stegastes diancaeus"	0	3	2	0	0	0	0	0	0
+"Strogylura notata"	7	9	0	4	3	1	5	0	0
+"Trachinotus falcatus"	0	0	0	2	605	145	2	5	54
+"Trachinotus goodei"	0	0	17	19	206	78	3	34	28
+"Trinectes inscriptus"	0	0	0	5	2	0	2	0	0
+"Umbrina coroides"	0	0	0	0	3	0	0	2	0
