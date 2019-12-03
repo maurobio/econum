@@ -1,6 +1,6 @@
 # Princípios de Ecologia Numérica
 
-![Princípios de Ecologia Numérica](https://github.com/maurobio/principios/blob/master/images/cover.jpg)
+![Princípios de Ecologia Numérica; com exemplos em Python](https://github.com/maurobio/principios/blob/master/images/cover_python.jpg)
 
 [Disponível em formato digital (ebook Kindle) na Amazon do Brasil](https://www.amazon.com.br/Princ%C3%ADpios-Ecologia-Num%C3%A9rica-exemplos-Python-ebook/dp/B07QQ3HWMP/ref=sr_1_fkmrnull_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Princ%C3%ADpios+de+Ecologia+Num%C3%A9rica&qid=1555586018&s=gateway&sr=8-1-fkmrnull)
 
