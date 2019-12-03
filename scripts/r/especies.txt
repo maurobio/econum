@@ -1,0 +1,11 @@
+"Espécies/Amostras"	"FI-2"	"FI-50"	"FI-100"	"FI-200"	"FII-2"	"FII-50"	"FII-100"	"FII-200"
+"Hyloscirtus callipeza"	0	0	1	1	0	0	2	1
+"Pristimantis  acutirostris"	0	0	0	0	0	0	1	0
+"P. lutitus"	3	5	6	11	1	2	15	30
+"P. merostictus"	6	16	22	5	3	18	42	29
+"P. miyatai"	3	4	3	2	3	3	4	3
+"P. uisae"	5	8	0	1	4	1	3	0
+"P. carlossanchezi"	0	0	0	0	0	1	2	3
+"Pristimantis sp B"	0	0	0	2	0	0	0	0
+"Pristimantis sp C"	0	0	0	0	0	1	0	0
+"Pristimantis spp juvenis"	5	5	14	3	1	2	15	6
