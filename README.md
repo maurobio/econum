@@ -1,6 +1,6 @@
 # Princípios de Ecologia Numérica; com exemplos em Python e R
 
-<img src="C:\Users\mauro\OneDrive\Documentos\GitHub\econum\images\cover_python.jpg" alt="cover_python" style="zoom:67%;" />  <img src="C:\Users\mauro\OneDrive\Documentos\GitHub\econum\images\cover_r.jpg" alt="cover_r" style="zoom:67%;" />
+<img src="C:\Users\mauro\OneDrive\Documentos\GitHub\econum\images\cover_python.jpg" alt="cover_python" style="zoom:67%;" />  <img src="C:\Users\mauro\OneDrive\Documentos\GitHub\econum\images\cover_python.jpg" alt="cover_r" style="zoom:67%;" />   <img src="C:\Users\mauro\OneDrive\Documentos\GitHub\econum\images\cover_python.jpg" alt="cover_python" style="zoom:67%;" />  <img src="C:\Users\mauro\OneDrive\Documentos\GitHub\econum\images\cover_r.jpg" alt="cover_r" style="zoom:67%;" />
 
 Disponível em formato digital (ebook Kindle) na Amazon do Brasil]
 
