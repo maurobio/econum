@@ -1,6 +1,9 @@
 # Carregamento do pacote "vegan"
 library(vegan)
 
+# Numero de digitos no formato de saida
+options(digits=3, width=90)
+
 # Leitura dos dados
 matriz <- read.csv("especies.csv", row.names=1)
 
@@ -53,3 +56,13 @@ E1 <- N1 / N0                   # Sheldon
 E2 <- N2 / N0                   # Hill 
 E3 <- ((N1 - 1) / (N0 - 1)) - 1 # Heip
 E4 <- (N2 - 1) / (N1 - 1)       # Alatalo
+
+# Armazenamento dos resultados em um quadro de dados
+result <- t(data.frame(S, N, D1, D2, d, M, c, H, PIE, N0, N1, N2, J, E1, E2, E3, E4))
+
+# Saida dos resultados
+linha <- paste("+", strrep("-", 70), "+", sep="")
+cat(linha, fill=TRUE)
+cat(knitr::kable(result), fill=TRUE)
+#cat(knitr::kable(result[,cols]), fill=TRUE)
+cat(linha, fill=TRUE)
