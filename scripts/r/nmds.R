@@ -1,16 +1,10 @@
 to_print <- TRUE
 
-# Leitura dos dados
+# Leitura dos dados de abundância
 matriz <- read.csv("especies.csv", row.names=1)
-
-# Construção da matriz de dados
-#matriz <- as.data.frame(dados)
 
 # Transposição da matriz de dados
 matriz <- t(matriz)
-
-# Transformação logarítmica da matriz de abundância
-matriz_log <- log10(matriz + 1)
 
 # Cálculo da distância de Bray-Curtis entre as amostras
 # utilizando a função "vegdist" do pacote "vegan"
@@ -20,20 +14,30 @@ dist <- vegdist(matriz, method="bray")
 # Escalonamento multidimensional não-métrico
 # usando a função "isoMDS" do pacote "MASS"
 library(MASS)
-fit <- isoMDS(dist, k=2) # k é o número de dimensões
+#fit <- isoMDS(dist, k=2) # k é o número de dimensões
 # Também pode ser utilizada a função metaMDS() 
 # do pacote "vegan"
-#fit <- metaMDS(dist, k-2, engine="monoMDS")
+#fit <- metaMDS(dist, k=2, engine="monoMDS")
+
+# Obtenção da solução inicial a partir da análise de coordenadas principais
+fit.null <- isoMDS(dist, k=2, tol=1e-7)
+
+# Iterações para maximizar o ajuste
+# utilizando a função "initMDS" do pacote "vegan"
+repeat{
+  fit <- isoMDS(dist, initMDS(dist), maxit=200, trace=FALSE, tol=1e-7)
+  if(fit$stress < fit.null$stress) break
+}
+
+# Escalonamento das soluções
+# utilizando a função "postMDS" do pacote "vegan"
+fit.null <- postMDS(fit.null, dist)
+fit <- postMDS(fit, dist)
 
 # Saída dos resultados
 print(fit)
 
 # Diagrama de dispersão
-#x <- fit$points[,1]
-#y <- fit$points[,2]
-#plot(x, y, xlab="Dim 1", ylab="Dim 2",
-#     main=paste("NMDS (stress=", format(fit$stress, digits=3), ")"), pch=19)
-#text(x, y, labels=rownames(fit$points), pos=1, cex=0.7)
 scores <- as.data.frame(fit$points)
 x = fit$points[,1]
 y = fit$points[,2]
