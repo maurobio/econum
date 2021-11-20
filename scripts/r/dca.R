@@ -2,8 +2,6 @@ to_print <- TRUE
 
 # Leitura dos dados
 matriz <- read.csv("especies.csv", row.names=1)
-nomes <- rownames(matriz)
-rownames(matriz) <- make.cepnames(nomes)
 
 # Transposição da matriz de dados
 matriz <- t(matriz)
